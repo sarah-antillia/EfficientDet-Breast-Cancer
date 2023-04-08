@@ -86,7 +86,7 @@ Please run the following command to install python packages for this project.<br
 <br>
 <h3>2.3 Create TFRecord dataset</h3>
 <h3>
-1, Create YOLO annotation
+1. Create YOLO annotation
 </h3>
  We have created BUSI <b>YOLO</b> annotation dataset from the original <b>Dataset_BUSI_with_GT</b> by using the following 
  two Python scripts.<br>
@@ -173,7 +173,7 @@ This bar graph shows that the number of the objects contained in train.tfrecord.
 <br>
 <br>
 <h3>4. Downloading the pretrained-model efficientdet-d0</h3>
-Please download an EfficientDet model chekcpoint file <b>efficientdet-d0.tar.gz</b>, and expand it in <b>EfficientDet-IT-RoadSigns</b> folder.<br>
+Please download an EfficientDet model chekcpoint file <b>efficientdet-d0.tar.gz</b>, and expand it in <b>EfficientDet-Breast-Cancer</b> folder.<br>
 <br>
 https://storage.googleapis.com/cloud-tpu-checkpoints/efficientdet/coco2/efficientdet-d0.tar.gz
 <br>
