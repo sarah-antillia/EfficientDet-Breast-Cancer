@@ -104,7 +104,6 @@ Please run the following command to install python packages for this project.<br
 </h3>
  We have created <b>TFRecord</b> dataset from BUSI <b>YOLO</b> tran and valid dataset by using 
  <a href="https://github.com/sarah-antillia/AnnotationConverters/blob/main/YOLO2TFRecordConverter.py"> YOLO2TFRecordConverter.py </a>.
-<br>
 Futhermore, we have also created <b>COCO</b> dataset from <b>YOLO</b> test dataset by using
  <a href="https://github.com/sarah-antillia/AnnotationConverters/blob/main/YOLO2COCOConverter.py">YOLO2COCOConvert.py</a>
 <br>
@@ -183,6 +182,7 @@ See: https://github.com/google/automl/tree/master/efficientdet<br>
 <h3>5. Training Breast-Cancer Model by using the pretrained-model</h3>
 Please change your current directory to <b>./projects/BUSI</b>,
 and run the following bat file to train Breast-Cancer EfficientDet Model by using the train and valid tfrecords.
+We have just used a parameter "autoaugment_policy=v2" in --hparams to augument the oringla images in TFRecord datase.
 <pre>
 1_train.bat
 </pre>
