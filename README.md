@@ -182,7 +182,7 @@ See: https://github.com/google/automl/tree/master/efficientdet<br>
 <h3>5. Training Breast-Cancer Model by using the pretrained-model</h3>
 Please change your current directory to <b>./projects/BUSI</b>,
 and run the following bat file to train Breast-Cancer EfficientDet Model by using the train and valid tfrecords.
-We have just used a parameter "autoaugment_policy=v2" in --hparams to augument the oringla images in TFRecord datase.
+We have just used a parameter "autoaugment_policy=v2" in --hparams to augument the original images in TFRecord dataset.
 <pre>
 1_train.bat
 </pre>
