@@ -456,13 +456,21 @@ python ../../SavedModelInferencer.py ^
 
 
 <h3>7.3. COCO metrics of inference result</h3>
-The 3_inference.bat computes also the COCO metrics(f, map, mar) to the <b>realistic_test_dataset</b> as shown below:<br>
+<p>
+The 3_inference.bat computes also the COCO metrics(f, map, mar) to the <b>test</b> dataset as shown below.
+</p>
+
 <a href="./projects/BUSI/test_outputs/prediction_f_map_mar.csv">prediction_f_map_mar.csv</a>
 
 <br>
 <b><a href="./projects/BUSI/eval/coco_metrics.csv">COCO metrics at epoch 87</a></b><br>
 <img src="./asset/inference_console_output_at_epoch_87.png" width="820" height="auto">
 <br>
+<p>
+From the picture above, you can see that <b>Average Precision @[IoU=0.50:0.05]</b> is very low. An another approach to improve
+the detection accuracy is to use data-augmentation, which is the most common strategy for 
+a limited number of images dataset. On detail, please see our project <a href="https://github.com/sarah-antillia/EfficientDet-Augmented-Breast-Ultrasound-Images">EfficientDet-Augmented-Breast-Ultrasound-Images</a>. 
+</p>
 
 <h3>
 References
@@ -510,7 +518,7 @@ https://www.hindawi.com/journals/jo/2022/7733583/
 
 <b>6. EfficientDet-Augmented-Breast-Ultrasound-Images
 </b><br>
-Toshiyuki Arai
+Toshiyuki Arai @antillia.com
 <br>
 <pre>
 https://github.com/sarah-antillia/EfficientDet-Augmented-Breast-Ultrasound-Images
