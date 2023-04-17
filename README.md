@@ -102,7 +102,7 @@ Please run the following command to install python packages for this project.<br
 <h3>
 2. Convert YOLO to TFRecord
 </h3>
- We have created <b>TFRecord</b> dataset from BUSI <b>YOLO</b> tran and valid dataset by using 
+ We have created <b>TFRecord</b> dataset from BUSI <b>YOLO</b> train and valid dataset by using 
  <a href="https://github.com/sarah-antillia/AnnotationConverters/blob/main/YOLO2TFRecordConverter.py"> YOLO2TFRecordConverter.py </a>.
 Futhermore, we have also created <b>COCO</b> dataset from <b>YOLO</b> test dataset by using
  <a href="https://github.com/sarah-antillia/AnnotationConverters/blob/main/YOLO2COCOConverter.py">YOLO2COCOConvert.py</a>
@@ -171,7 +171,7 @@ This bar graph shows that the number of the objects contained in train.tfrecord.
 <br>
 <br>
 <br>
-<h3>4. Downloading the pretrained-model efficientdet-d0</h3>
+<h3>4. Download the pretrained-model efficientdet-d0</h3>
 Please download an EfficientDet model chekcpoint file <b>efficientdet-d0.tar.gz</b>, and expand it in <b>EfficientDet-Breast-Cancer</b> folder.<br>
 <br>
 https://storage.googleapis.com/cloud-tpu-checkpoints/efficientdet/coco2/efficientdet-d0.tar.gz
@@ -179,7 +179,7 @@ https://storage.googleapis.com/cloud-tpu-checkpoints/efficientdet/coco2/efficien
 See: https://github.com/google/automl/tree/master/efficientdet<br>
 
 
-<h3>5. Training Breast-Cancer Model by using the pretrained-model</h3>
+<h3>5. Train Breast-Cancer Model by using the pretrained-model</h3>
 Please change your current directory to <b>./projects/BUSI</b>,
 and run the following bat file to train Breast-Cancer EfficientDet Model by using the train and valid tfrecords.
 We have just used a parameter "autoaugment_policy=v2" in --hparams to augument the original images in TFRecord dataset.
