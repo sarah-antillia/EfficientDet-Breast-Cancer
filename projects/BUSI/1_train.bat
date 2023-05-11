@@ -4,7 +4,7 @@ python ../../ModelTrainer.py ^
   --train_file_pattern=./train/*.tfrecord  ^
   --val_file_pattern=./valid/*.tfrecord ^
   --model_name=efficientdet-d0 ^
-  --hparams="autoaugment_policy=v2,learning_rate=0.01,image_size=512x512,num_classes=2,label_map=./label_map.yaml" ^
+  --hparams="learning_rate=0.1,image_size=512x512,num_classes=2,label_map=./label_map.yaml" ^
   --model_dir=./models ^
   --label_map_pbtxt=./label_map.pbtxt ^
   --eval_dir=./eval ^
